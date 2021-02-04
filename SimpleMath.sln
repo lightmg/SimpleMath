@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMath.BusinessLogic", "SimpleMath.BusinessLogic\SimpleMath.BusinessLogic.csproj", "{B4EA0786-27A1-4BCA-9ACE-13CE501BE58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMath.Web", "SimpleMath.Web\SimpleMath.Web.csproj", "{0B04D339-55D8-4092-8D49-DFB0CAE36B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMath.BusinessLogic.Tests", "SimpleMath.BusinessLogic.Tests\SimpleMath.BusinessLogic.Tests.csproj", "{7B901FA9-6627-4A46-A1B6-94B3DC331735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMath.Web.Tests", "SimpleMath.Web.Tests\SimpleMath.Web.Tests.csproj", "{258689EE-0547-4AAB-BDF0-DF0F2FC7E6B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4EA0786-27A1-4BCA-9ACE-13CE501BE58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EA0786-27A1-4BCA-9ACE-13CE501BE58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EA0786-27A1-4BCA-9ACE-13CE501BE58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EA0786-27A1-4BCA-9ACE-13CE501BE58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B04D339-55D8-4092-8D49-DFB0CAE36B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B04D339-55D8-4092-8D49-DFB0CAE36B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B04D339-55D8-4092-8D49-DFB0CAE36B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B04D339-55D8-4092-8D49-DFB0CAE36B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B901FA9-6627-4A46-A1B6-94B3DC331735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B901FA9-6627-4A46-A1B6-94B3DC331735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B901FA9-6627-4A46-A1B6-94B3DC331735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B901FA9-6627-4A46-A1B6-94B3DC331735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258689EE-0547-4AAB-BDF0-DF0F2FC7E6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258689EE-0547-4AAB-BDF0-DF0F2FC7E6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258689EE-0547-4AAB-BDF0-DF0F2FC7E6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258689EE-0547-4AAB-BDF0-DF0F2FC7E6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
