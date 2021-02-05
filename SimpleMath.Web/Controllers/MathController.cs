@@ -17,8 +17,10 @@ namespace SimpleMath.Web.Controllers
         }
 
         [Route("calc")]
-        [HttpGet]
-        public IMathOperationResult Solve(MathOperation operation) =>
-            solver.Solve(operation);
+        [HttpGet, HttpPost]
+        public IMathOperationResult Solve(MathOperation operation)
+        {
+            return solver.Solve(operation);
+        }
     }
 }

@@ -1,3 +1,5 @@
+using System;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Hosting;
 using NUnit.Framework;
 
@@ -10,7 +12,7 @@ namespace SimpleMath.Web.Tests
         [SetUp]
         public virtual void SetUp()
         {
-            host = WebServer.CreateHost();
+            host = Program.CreateHostBuilder(Array.Empty<string>(), ModifyAppConfiguration).Build();
             host.StartAsync();
         }
 
@@ -18,7 +20,16 @@ namespace SimpleMath.Web.Tests
         public virtual void TearDown()
         {
             host.Dispose();
-            TestContext.Progress.WriteLine("Host successfully disposed");
+            PrintProgress("Host successfully disposed");
+        }
+
+        protected void PrintProgress(string message)
+        {
+            TestContext.Progress.WriteLine(message);
+        }
+
+        protected virtual void ModifyAppConfiguration(IApplicationBuilder app)
+        {
         }
     }
 }
